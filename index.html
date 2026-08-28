@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sciences of the Origin</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #20252b;
+        background: #f7f7f5;
+        line-height: 1.7;
+    }
+
+    header {
+        background: #17212b;
+        color: white;
+        padding: 28px 7% 22px;
+        border-bottom: 4px solid #b38b59;
+    }
+
+    .header-inner {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .site-title {
+        font-size: 34px;
+        letter-spacing: 1px;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    .site-subtitle {
+        margin: 4px 0 22px;
+        color: #d6dce1;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    nav {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        color: #d4ad78;
+    }
+
+    .hero {
+        background: white;
+        padding: 90px 7% 85px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .hero-inner {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+        line-height: 1.08;
+        font-weight: normal;
+        max-width: 850px;
+        margin: 0 0 24px;
+        color: #17212b;
+    }
+
+    .hero p {
+        max-width: 760px;
+        font-size: 21px;
+        color: #505a63;
+        margin-bottom: 32px;
+    }
+
+    .hero-line {
+        width: 90px;
+        height: 3px;
+        background: #b38b59;
+        margin-bottom: 28px;
+    }
+
+    .button {
+        display: inline-block;
+        background: #17212b;
+        color: white;
+        text-decoration: none;
+        padding: 12px 22px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .button:hover {
+        background: #b38b59;
+    }
+
+    .section {
+        max-width: 1200px;
+        margin: auto;
+        padding: 70px 7%;
+    }
+
+    .section h2 {
+        font-size: 34px;
+        font-weight: normal;
+        margin-top: 0;
+        color: #17212b;
+    }
+
+    .section-intro {
+        max-width: 800px;
+        font-size: 18px;
+        color: #555;
+    }
+
+    .themes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .theme {
+        background: white;
+        padding: 30px;
+        border-top: 3px solid #b38b59;
+    }
+
+    .theme h3 {
+        font-size: 23px;
+        font-weight: normal;
+        margin-top: 0;
+    }
+
+    .theme p {
+        color: #62686d;
+        font-size: 15px;
+    }
+
+    .news {
+        background: #eef0f1;
+        padding: 70px 7%;
+    }
+
+    .news-inner {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .news-item {
+        background: white;
+        padding: 28px 32px;
+        margin: 20px 0;
+        border-left: 3px solid #b38b59;
+    }
+
+    .news-date {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #8a6b47;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .news-item h3 {
+        margin: 8px 0;
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    .news-item p {
+        color: #5d6368;
+        margin-bottom: 0;
+    }
+
+    .statement {
+        background: #17212b;
+        color: white;
+        padding: 70px 7%;
+        text-align: center;
+    }
+
+    .statement-inner {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .statement p {
+        font-size: 25px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    footer {
+        background: #111920;
+        color: #aeb5ba;
+        padding: 35px 7%;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    .footer-inner {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    @media (max-width: 800px) {
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .themes {
+            grid-template-columns: 1fr;
+        }
+
+        nav {
+            gap: 14px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+
+        <h1 class="site-title">Sciences of the Origin</h1>
+
+        <div class="site-subtitle">
+            Philosophy, science, and the deep past
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html">Project</a>
+            <a href="people.html">People</a>
+            <a href="conversations.html">Conversations</a>
+            <a href="events.html">Events</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-inner">
+
+        <div class="hero-line"></div>
+
+        <h1>
+            Understanding the origins of the universe, life, and mind.
+        </h1>
+
+        <p>
+            Sciences of the Origin brings together philosophy and the sciences
+            to investigate how we can understand the deep past through
+            evidence, inference, interdisciplinary research, and critical
+            reflection.
+        </p>
+
+        <a class="button" href="project.html">Explore the project</a>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <h2>The Sciences of the Origin</h2>
+
+    <p class="section-intro">
+        Questions about origins occupy a unique position at the boundaries
+        of science and philosophy. They concern events and processes that
+        cannot simply be observed directly, and therefore require the
+        reconstruction of the past from incomplete and often indirect
+        evidence.
+    </p>
+
+    <div class="themes">
+
+        <div class="theme">
+            <h3>The Universe</h3>
+            <p>
+                Cosmology and the philosophical questions surrounding the
+                reconstruction of cosmic history and the origins of the
+                universe.
+            </p>
+        </div>
+
+        <div class="theme">
+            <h3>Life</h3>
+            <p>
+                The origins and early evolution of life, and the methodological
+                challenges involved in reconstructing processes in the deep
+                biological past.
+            </p>
+        </div>
+
+        <div class="theme">
+            <h3>Mind</h3>
+            <p>
+                The emergence of consciousness, cognition, and human
+                capacities, including the evidence available for understanding
+                our deep evolutionary history.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="news">
+
+    <div class="news-inner">
+
+        <h2>Recent activity</h2>
+
+        <div class="news-item">
+
+            <div class="news-date">June 2022</div>
+
+            <h3>
+                History of the philosophical and scientific quest for the
+                origins of the universe, life, and mind
+            </h3>
+
+            <p>
+                End-of-semester panel at Plato Club in Belgrade.
+            </p>
+
+        </div>
+
+
+        <div class="news-item">
+
+            <div class="news-date">February 2022</div>
+
+            <h3>
+                The Newest the Oldest: Trends in Philosophy of the Deep Past
+            </h3>
+
+            <p>
+                A seven-week course addressing philosophical aspects of the
+                origin of life and the philosophy of archaeology.
+            </p>
+
+        </div>
+
+
+        <div class="news-item">
+
+            <div class="news-date">2021</div>
+
+            <h3>
+                Sciences of the Origin — Challenges of Selection Effects and Biases
+            </h3>
+
+            <p>
+                An interdisciplinary conference bringing together researchers
+                working on the scientific investigation of origins.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="statement">
+
+    <div class="statement-inner">
+
+        <p>
+            How can we reconstruct the deep past when the evidence is
+            necessarily incomplete, indirect, and shaped by selection effects?
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-inner">
+
+        <strong>Sciences of the Origin</strong><br><br>
+
+        A project at the University of Belgrade, Faculty of Philosophy.
+
+    </div>
+
+</footer>
+
+</body>
+</html>
