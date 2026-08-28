@@ -1,0 +1,342 @@
+/* =========================================
+   SCIENCES OF THE ORIGIN
+   Main site stylesheet
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #f7f7f5;
+    color: #20252b;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+/* ---------- HEADER ---------- */
+
+.site-header {
+    background: #17212b;
+    color: #ffffff;
+    border-bottom: 4px solid #b38b59;
+}
+
+.header-inner {
+    max-width: 1180px;
+    margin: auto;
+    padding: 25px 35px 20px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.site-tagline {
+    margin: 2px 0 20px;
+    color: #cbd2d8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+    color: #d4ad78;
+}
+
+/* ---------- PAGE CONTAINER ---------- */
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 35px;
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 75px 0 70px;
+}
+
+.hero-inner {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 35px;
+}
+
+.gold-line {
+    width: 75px;
+    height: 3px;
+    background: #b38b59;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    max-width: 850px;
+    margin: 0 0 22px;
+    color: #17212b;
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.hero p {
+    max-width: 780px;
+    margin: 0;
+    color: #555d63;
+    font-size: 20px;
+}
+
+/* ---------- PAGE TITLE ---------- */
+
+.page-header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 55px 0 50px;
+}
+
+.page-header h1 {
+    margin: 0;
+    color: #17212b;
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.page-header p {
+    max-width: 750px;
+    margin: 12px 0 0;
+    color: #666;
+    font-size: 18px;
+}
+
+/* ---------- CONTENT ---------- */
+
+.content {
+    padding: 65px 0;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #17212b;
+    font-size: 31px;
+    font-weight: normal;
+}
+
+.content h3 {
+    color: #17212b;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.content p {
+    max-width: 850px;
+}
+
+.content a {
+    color: #87653e;
+}
+
+.content a:hover {
+    color: #17212b;
+}
+
+/* ---------- CARDS ---------- */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 28px;
+    border-top: 3px solid #b38b59;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #62686d;
+    font-size: 15px;
+}
+
+/* ---------- PEOPLE ---------- */
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.person {
+    background: #ffffff;
+    padding: 25px;
+    border-top: 3px solid #b38b59;
+}
+
+.person-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: #e9eaeb;
+    margin-bottom: 20px;
+}
+
+.person h2 {
+    margin: 0 0 5px;
+    font-size: 25px;
+}
+
+.person .role {
+    color: #87653e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+/* ---------- NEWS / EVENTS ---------- */
+
+.archive-item {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 27px 30px;
+    border-left: 3px solid #b38b59;
+}
+
+.archive-date {
+    color: #87653e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.archive-item h2 {
+    margin: 7px 0;
+    font-size: 24px;
+}
+
+.archive-item p {
+    color: #5f666b;
+}
+
+/* ---------- CONVERSATIONS ---------- */
+
+.conversation {
+    background: #ffffff;
+    padding: 28px 32px;
+    margin-bottom: 20px;
+    border-left: 3px solid #b38b59;
+}
+
+.conversation h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.conversation .guest {
+    color: #87653e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* ---------- CALLOUT ---------- */
+
+.callout {
+    margin: 45px 0;
+    padding: 35px;
+    background: #17212b;
+    color: #ffffff;
+}
+
+.callout p {
+    margin: 0;
+    max-width: 850px;
+    font-size: 21px;
+}
+
+/* ---------- FOOTER ---------- */
+
+.site-footer {
+    background: #111920;
+    color: #aeb5ba;
+    padding: 35px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.footer-inner {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 35px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 850px) {
+
+    .header-inner,
+    .hero-inner,
+    .container,
+    .footer-inner {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .site-nav {
+        gap: 14px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .page-header h1 {
+        font-size: 36px;
+    }
+
+    .card-grid,
+    .people-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .person-image {
+        height: auto;
+        max-height: 400px;
+    }
+}
